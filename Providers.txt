@@ -935,7 +935,7 @@
     "languages": [
       "ru"
     ],
-    "base_url": "http://rutor.info",
+    "base_url": "https://rutor.info",
     "response_type": "text",
     "movie": {
       "query": "/search/{query}",
