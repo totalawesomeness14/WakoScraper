@@ -491,32 +491,6 @@
       "\"": ""
     }
   },
-  "legittorrents": {
-    "name": "Legit Torrents",
-    "enabled": true,
-    "languages": [
-      "en"
-    ],
-    "base_url": "http://www.legittorrents.info",
-    "response_type": "text",
-    "movie": {
-      "query": "/index.php?page=torrents&active=1&search={query}&category=1",
-      "keywords": "{title} "
-    },
-    "html_parser": {
-      "row": "doc.querySelectorAll('#bodyarea tr table:nth-child(3) table.lista tr')",
-      "title": "row.querySelector('td:nth-child(2) a').textContent",
-      "peers": "row.querySelector('td:nth-child(6)').textContent",
-      "seeds": "row.querySelector('td:nth-child(5)').textContent",
-      "size": null,
-      "url": "row.querySelector('td:nth-child(3) a').getAttribute('href')"
-    },
-    "source_is_in_sub_page": false,
-    "title_replacement": {
-      "'s": "s",
-      "\"": ""
-    }
-  },
   "movcr": {
     "name": "MovCr",
     "enabled": true,
