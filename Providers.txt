@@ -1285,7 +1285,7 @@
   },
   "corsarored": {
     "name": "Corsaro.red",
-    "enabled": false,
+    "enabled": true,
     "languages": [
       "it"
     ],
