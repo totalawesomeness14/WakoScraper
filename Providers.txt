@@ -1336,7 +1336,7 @@
     "languages": [
       "fr"
     ],
-    "base_url": "https://www.oxtorrent.com",
+    "base_url": "https://www.oxtorrent.pe",
     "fallback_urls": [
     ],
     "response_type": "text",
